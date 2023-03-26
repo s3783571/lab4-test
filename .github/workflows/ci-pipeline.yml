@@ -7,8 +7,8 @@ on:
     branches:
     - main
 jobs:
-  if: false
   lint:
+    if: false
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
